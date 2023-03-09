@@ -2,3 +2,23 @@ div {
   text-align: center;
   padding: 10px;
 }
+
+.nav_ul {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  gap: 20px;
+}
+.nav_ul li {
+  list-style-type: none;
+}
+.nav_link {
+  padding: 8px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #070504;
+}
+.active {
+  background-color: #070504;
+  color: aliceblue;
+}
